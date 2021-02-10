@@ -1,5 +1,11 @@
 /* Estilos da pagina index.html */
 
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans&display=swap');
+
+body{
+    background-color: #ddd8d8;
+}
+
 .center{
     text-align: center;
 }
@@ -12,6 +18,15 @@
     text-align: justify;
 }
 
+*{font-family: 'Open Sans', sans-serif;}
+
+.titulo{
+    /* latin-ext */
+ 
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
 
 .container{
   display: flex;
@@ -21,7 +36,7 @@
 }
 
 #menu{
-    background-color: #2f3640;
+    background-color: #000000;
     padding: 18px;
 }
 
@@ -32,12 +47,12 @@
 
 #menu li a{
     text-decoration: none;
-    color: #e55039;
+    color: #FF8600;
     font-size: 24px;
 }
 
 #menu li a:hover{
-   color: #f6b93b;
+   color: #BD1E1E;
 } 
 
 .p-20{
