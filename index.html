@@ -5,28 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
+
     </ul>
-    <h1>Sobre o Gabriel:</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex asperiores ipsam, quos officiis perspiciatis vel a, ea beatae architecto, recusandae iusto consectetur totam sequi. Optio eaque consequatur rerum omnis autem.
-    </p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ea eum accusamus similique eveniet! Nam facere, tenetur, nihil eligendi nobis deserunt assumenda nemo quam iste ipsam dignissimos ipsum ullam aspernatur.</p>
+    <h1 class="center">Sobre o Gabriel:</h1>
 
-    <h2>Foto</h2>
+    <div class="container">
+        <div>
+            <img class="p-30 br-50" src="assets/img/harry potter.jpg" alt="foto do desenvolvedor da pagina">
+        </div>
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex asperiores ipsam, quos officiis perspiciatis vel a, ea beatae architecto, recusandae iusto consectetur totam sequi. Optio eaque consequatur rerum omnis autem.
+            </p>
+            <p class="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ea eum accusamus similique eveniet! Nam facere, tenetur, nihil eligendi nobis deserunt assumenda nemo quam iste ipsam dignissimos ipsum ullam aspernatur.</p>
+        </div>
+    </div>
 
-    <img src="assets/img/harry potter.jpg" alt="foto do desenvolvedor da pagina">
+    <h2 class="center">Vídeo preferido:</h2>
 
-    <h2>Vídeo preferido:</h2>
+    <div class="container mb-50">
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/RQcrJ0Ig5vw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RQcrJ0Ig5vw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
+    <hr>
+    <footer>
+        <div class="container">
+            <div>
+                <a href="https://br.pinterest.com/search/pins/?rs=ac&len=2&q=harry%20potter&eq=harry&etslf=7076&term_meta[]=harry%7Cautocomplete%7C0&term_meta[]=potter%7Cautocomplete%7C0" target="_blank">
+                <img class="tm-social p-20" src="assets/img/pinterest.png" alt="Logo Pinterest"></a>
 
+               <a href="https://www.instagram.com/nascbiel/?hl=pt-br" target="_blank">
+                <img class="tm-social p-20" src="assets/img/instagram.png" alt="Logo Instagram">
+               </a>
+
+               <a href="https://www.linkedin.com/in/nascbiel/" target="_blank">  
+                <img class="tm-social p-20" src="assets/img/linkedin.png" alt="Logo Linkedin"></a>
+            </div>
+        </div>
+        <p class="direita">
+            Todos os direitos reservados: Gabriel Nascimento &copy
+        </p>
+    </footer>
 </body>
 </html>
