@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu perfil</title>
+    <title>Harry Potter</title>
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -38,14 +38,15 @@
         <div class="container">
             <div>
                 <a href="https://br.pinterest.com/search/pins/?rs=ac&len=2&q=harry%20potter&eq=harry&etslf=7076&term_meta[]=harry%7Cautocomplete%7C0&term_meta[]=potter%7Cautocomplete%7C0" target="_blank">
-                <img class="tm-social p-20" src="assets/img/pinterest.png" alt="Logo Pinterest"></a>
+                <img class="tm-social p-20" src="assets/img/pinterest.png" alt="Logo Pinterest" onmousemove="imagemZoom1()" onmouseout="imagemNormal1()" id="imagem1"></a>
 
                <a href="https://www.instagram.com/" target="_blank">
-                <img class="tm-social p-20" src="assets/img/instagram.png" alt="Logo Instagram">
+                <img class="tm-social p-20" src="assets/img/instagram.png" alt="Logo Instagram" onmousemove="imagemZoom2()" onmouseout="imagemNormal2()" id="imagem2">
                </a>
 
                <a href="https://www.linkedin.com/in/nascbiel/" target="_blank">  
-                <img class="tm-social p-20" src="assets/img/linkedin.png" alt="Logo Linkedin"></a>
+                <img class="tm-social p-20" src="assets/img/linkedin.png" alt="Logo Linkedin" 
+                onmousemove="imagemZoom3()" onmouseout="imagemNormal3()" id="imagem3"></a>
             </div>
         </div>
         <p class="direita">
@@ -54,5 +55,7 @@
             </b>
         </p>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
